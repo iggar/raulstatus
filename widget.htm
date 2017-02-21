@@ -1,0 +1,23 @@
+<html>
+<head>
+<script type="text/javascript">
+var url = "http://localhost:5000/status"
+var xhr = new XMLHttpRequest();
+xhr.open("GET", url, true);
+xhr.onreadystatechange = function() {
+  if (xhr.readyState == 4 && xhr.status == 200) {
+    var resp = JSON.parse(xhr.responseText);
+    if (resp['open']) {
+	 document.getElementById('statusimg').src='img/open.png'
+    } else {
+	document.getElementById('statusimg').src='img/closed.png'
+    }
+  }
+}
+xhr.send();
+</script>
+</head>
+<body>
+<img id="statusimg" src="img/closed.png" />
+</body>
+</html>
