@@ -8,7 +8,7 @@ Once you install the requirements, simply run `python app.py`
 
 ### Running on Docker
 
-After installing [Docker (https://www.docker.com/products/overview)], first build the image using the following command:
+After installing [Docker](https://www.docker.com/products/overview), first build the image using the following command:
 
 ```bash
 docker build -t raul-status:latest .
