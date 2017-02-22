@@ -1,4 +1,10 @@
-# Simple Python Flask API for the Raul Hackerspace presence control #
+# Simple Python Flask API for the Raul Hackerspace presence awareness #
+
+Raul Hacker Space is a [hackerspace](https://en.wikipedia.org/wiki/Hackerspace) in [Salvador, Brazil](https://en.wikipedia.org/wiki/Salvador,_Bahia).
+
+http://raulhc.cc
+
+This is a project I developed to practice Python. The challenge is to provide a way of informing the public whether there is someone in the space so that visitors can pop in.
 
 
 ### Running locally
